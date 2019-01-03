@@ -1,0 +1,42 @@
+Maximum dungeon size = 10x10 grid of rooms.
+Numbered:	
+
+	09 19 29 39 49 59 69 79 89 99
+	08 18 28 38 48 58 68 78 88 98
+	07 17 27 37 47 57 67 77 87 97	
+	06 16 26 36 46 56 66 76 86 96
+	05 15 25 35 45 55 65 75 85 95
+	04 14 24 34 44 54 64 74 84 94
+	03 13 23 33 43 53 63 73 83 93
+	02 12 22 32 42 52 62 72 82 92		such that 46 means (x = 4, y = 6)
+	01 11 21 31 41 51 61 71 81 91
+	00 10 20 30 40 50 60 70 80 90
+
+The generator will run from the treasure room so that all generated dungeons are possible to complete. 
+The treasure room will spawn in a random cell and have only one door.
+
+Generation rules:
+The first room must be the treasure room
+A room must have a door leading to the room it was genrated from
+A room should me more than likely to have a second door
+A room cannot have a door which leads to the wall of another
+A room may be a dead end.
+x1 rooms cannot have a west door
+9x and 0 rooms cannot have a north door
+x0 rooms cannot have an east door
+Rooms 1-10 cannot have a south door
+The player can only spawn in an empty room
+No monsters can spawn in the treasure room
+Room ID's may be left unused if a room cannot be generated in that position
+
+
+DungeonGenerator()
+Create the treasure room with 1 door;
+GenerateRoom(getTreasureRoomNumber)
+
+GenerateRoom(int roomNumber){
+	for each door leading to null{
+		generate a room from that room;
+		GenerateRoom(getNewRoomNumber)
+		}
+	}	

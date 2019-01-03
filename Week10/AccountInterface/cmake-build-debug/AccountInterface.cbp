@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AccountInterface"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AccountInterface">
+				<Option output="F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/AccountInterface.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/University/Year 2/OOP/Week10/AccountInterface/."/>
+					<Add directory="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface"/>
+					<Add directory="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm"/>
+					<Add directory="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 AccountInterface"/>
+					<CompileFile command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AccountInterface/fast">
+				<Option output="F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/AccountInterface.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/University/Year 2/OOP/Week10/AccountInterface/."/>
+					<Add directory="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface"/>
+					<Add directory="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm"/>
+					<Add directory="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 AccountInterface/fast"/>
+					<CompileFile command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Week10/AccountInterface/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/Account.cpp">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/Account.h">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/BankInterface.h">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/Controller.cpp">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/Controller.h">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/MyForm.cpp">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/stdafx.cpp">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/stdafx.h">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/.NETFramework,Version=v4.5.AssemblyAttributes.obj">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/CRLForm.MyForm.resources">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/CRLForm.exe">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/CRLForm.exe.metagen">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/CRLForm.log">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/CRLForm.pdb">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/CRLForm.tlog/CRLForm.lastbuildstate">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/CRLForm.tlog/RSAENH.DLL.bi">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/CRLForm.tlog/TZRES.DLL.bi">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/CRLForm.tlog/cl.command.1.tlog">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/CRLForm.tlog/cl.read.1.tlog">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/CRLForm.tlog/cl.write.1.tlog">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/CRLForm.tlog/link.command.1.tlog">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/CRLForm.tlog/link.read.1.tlog">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/CRLForm.tlog/link.write.1.tlog">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/CRLForm.tlog/metagen.read.1.tlog">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/CRLForm.tlog/metagen.write.1.tlog">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/CRLForm.vcxproj.GenerateResource.Cache">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/CRLForm.vcxprojResolveAssemblyReference.cache">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/FormExample.exe">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/FormExample.exe.metagen">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/FormExample.pdb">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/FormExample.tlog/CL.read.1.tlog">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/FormExample.tlog/CL.write.1.tlog">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/FormExample.tlog/FormExample.lastbuildstate">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/FormExample.tlog/FormExample.write.1u.tlog">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/FormExample.tlog/RSAENH.DLL.bi">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/FormExample.tlog/TZRES.DLL.bi">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/FormExample.tlog/cl.command.1.tlog">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/FormExample.tlog/link.command.1.tlog">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/FormExample.tlog/link.read.1.tlog">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/FormExample.tlog/link.write.1.tlog">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/FormExample.tlog/metagen.read.1.tlog">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/FormExample.tlog/metagen.write.1.tlog">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/MyForm.obj">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/Debug/vc120.pdb">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/FormExample.VC.db">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/FormExample.sln">
+			<Option target="AccountInterface"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Week10/AccountInterface/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,11 @@
+int age;
+int *agePtr;
+agePtr = *age;
+age = 18;
+					Outputs:
+cout << age << endl;			18	
+cout << *age << endl;			Age Location
+cout << agePtr << endl;			Age Location
+cout << *agePtr << endl;		18
+
+

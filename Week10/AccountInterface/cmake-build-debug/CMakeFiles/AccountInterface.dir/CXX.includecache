@@ -1,0 +1,54 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/Account.cpp
+stdafx.h
+F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/stdafx.h
+Account.h
+F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/Account.h
+
+F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/Account.h
+stdafx.h
+F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/stdafx.h
+
+F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/BankInterface.h
+Controller.h
+F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/Controller.h
+
+F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/Controller.cpp
+Controller.h
+F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/Controller.h
+Account.h
+F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/Account.h
+
+F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/Controller.h
+Account.h
+F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/Account.h
+
+F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/MyForm.cpp
+BankInterface.h
+F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/BankInterface.h
+
+F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/stdafx.cpp
+stdafx.h
+F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/stdafx.h
+
+F:/University/Year 2/OOP/Week10/AccountInterface/AccountInterface/CRLForm/stdafx.h
+stdio.h
+-
+tchar.h
+-
+iostream
+-
+string
+-
+vector
+-
+sstream
+-
+

@@ -1,0 +1,1272 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_0a0b2/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_0a0b2.dir\build.make CMakeFiles/cmTC_0a0b2.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a0b2.dir/testCCompiler.c.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"    -o CMakeFiles\cmTC_0a0b2.dir\testCCompiler.c.obj   -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+Linking C executable cmTC_0a0b2.exe
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0a0b2.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_0a0b2.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_0a0b2.dir/objects.a @CMakeFiles\cmTC_0a0b2.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"      -Wl,--whole-archive CMakeFiles\cmTC_0a0b2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_0a0b2.exe -Wl,--out-implib,libcmTC_0a0b2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0a0b2.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_9873d/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_9873d.dir\build.make CMakeFiles/cmTC_9873d.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9873d.dir/CMakeCCompilerABI.c.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"    -o CMakeFiles\cmTC_9873d.dir\CMakeCCompilerABI.c.obj   -c "F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_9873d.exe
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9873d.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_9873d.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_9873d.dir/objects.a @CMakeFiles\cmTC_9873d.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"     -v -Wl,--whole-archive CMakeFiles\cmTC_9873d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_9873d.exe -Wl,--out-implib,libcmTC_9873d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe
+COLLECT_LTO_WRAPPER=F:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-8.1.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/lib -L/c/mingw810/prerequisites/i686-zlib-static/lib -L/c/mingw810/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 8.1.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+COMPILER_PATH=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9873d.exe' '-mtune=generic' '-march=i686'
+ F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ATBir\AppData\Local\Temp\ccDqIc2b.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -o cmTC_9873d.exe F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_9873d.dir/objects.a --no-whole-archive --out-implib libcmTC_9873d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9873d.exe' '-mtune=generic' '-march=i686'
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_9873d/fast"]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_9873d.dir\build.make CMakeFiles/cmTC_9873d.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_9873d.dir/CMakeCCompilerABI.c.obj]
+  ignore line: ["F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"    -o CMakeFiles\cmTC_9873d.dir\CMakeCCompilerABI.c.obj   -c "F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_9873d.exe]
+  ignore line: ["F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9873d.dir\link.txt --verbose=1]
+  ignore line: ["F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_9873d.dir/objects.a]
+  ignore line: ["F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_9873d.dir/objects.a @CMakeFiles\cmTC_9873d.dir\objects1.rsp]
+  ignore line: ["F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"     -v -Wl,--whole-archive CMakeFiles\cmTC_9873d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_9873d.exe -Wl,--out-implib,libcmTC_9873d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=F:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/lib -L/c/mingw810/prerequisites/i686-zlib-static/lib -L/c/mingw810/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.1.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9873d.exe' '-mtune=generic' '-march=i686']
+  ignore line: [ F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ATBir\AppData\Local\Temp\ccDqIc2b.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -o cmTC_9873d.exe F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_9873d.dir/objects.a --no-whole-archive --out-implib libcmTC_9873d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9873d.exe' '-mtune=generic' '-march=i686']
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_cc6c2/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_cc6c2.dir\build.make CMakeFiles/cmTC_cc6c2.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc6c2.dir/feature_tests.c.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"   -std=c11 -o CMakeFiles\cmTC_cc6c2.dir\feature_tests.c.obj   -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_cc6c2.exe
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_cc6c2.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_cc6c2.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_cc6c2.dir/objects.a @CMakeFiles\cmTC_cc6c2.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"      -Wl,--whole-archive CMakeFiles\cmTC_cc6c2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_cc6c2.exe -Wl,--out-implib,libcmTC_cc6c2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_cc6c2.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_c0df3/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_c0df3.dir\build.make CMakeFiles/cmTC_c0df3.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0df3.dir/feature_tests.c.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"   -std=c99 -o CMakeFiles\cmTC_c0df3.dir\feature_tests.c.obj   -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_c0df3.exe
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c0df3.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c0df3.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_c0df3.dir/objects.a @CMakeFiles\cmTC_c0df3.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"      -Wl,--whole-archive CMakeFiles\cmTC_c0df3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c0df3.exe -Wl,--out-implib,libcmTC_c0df3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c0df3.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_a7f9a/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_a7f9a.dir\build.make CMakeFiles/cmTC_a7f9a.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7f9a.dir/feature_tests.c.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"   -std=c90 -o CMakeFiles\cmTC_a7f9a.dir\feature_tests.c.obj   -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_a7f9a.exe
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a7f9a.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_a7f9a.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_a7f9a.dir/objects.a @CMakeFiles\cmTC_a7f9a.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"      -Wl,--whole-archive CMakeFiles\cmTC_a7f9a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a7f9a.exe -Wl,--out-implib,libcmTC_a7f9a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a7f9a.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_1c070/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_1c070.dir\build.make CMakeFiles/cmTC_1c070.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1c070.dir/testCXXCompiler.cxx.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"     -o CMakeFiles\cmTC_1c070.dir\testCXXCompiler.cxx.obj -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_1c070.exe
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1c070.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_1c070.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_1c070.dir/objects.a @CMakeFiles\cmTC_1c070.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"      -Wl,--whole-archive CMakeFiles\cmTC_1c070.dir/objects.a -Wl,--no-whole-archive  -o cmTC_1c070.exe -Wl,--out-implib,libcmTC_1c070.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1c070.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_837e1/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_837e1.dir\build.make CMakeFiles/cmTC_837e1.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_837e1.dir/CMakeCXXCompilerABI.cpp.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"     -o CMakeFiles\cmTC_837e1.dir\CMakeCXXCompilerABI.cpp.obj -c "F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_837e1.exe
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_837e1.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_837e1.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_837e1.dir/objects.a @CMakeFiles\cmTC_837e1.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"     -v -Wl,--whole-archive CMakeFiles\cmTC_837e1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_837e1.exe -Wl,--out-implib,libcmTC_837e1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe
+COLLECT_LTO_WRAPPER=F:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-8.1.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/lib -L/c/mingw810/prerequisites/i686-zlib-static/lib -L/c/mingw810/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 8.1.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+COMPILER_PATH=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_837e1.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ATBir\AppData\Local\Temp\cc2DBEmq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_837e1.exe F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_837e1.dir/objects.a --no-whole-archive --out-implib libcmTC_837e1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_837e1.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_837e1/fast"]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_837e1.dir\build.make CMakeFiles/cmTC_837e1.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_837e1.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: ["F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"     -o CMakeFiles\cmTC_837e1.dir\CMakeCXXCompilerABI.cpp.obj -c "F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_837e1.exe]
+  ignore line: ["F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_837e1.dir\link.txt --verbose=1]
+  ignore line: ["F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_837e1.dir/objects.a]
+  ignore line: ["F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_837e1.dir/objects.a @CMakeFiles\cmTC_837e1.dir\objects1.rsp]
+  ignore line: ["F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"     -v -Wl,--whole-archive CMakeFiles\cmTC_837e1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_837e1.exe -Wl,--out-implib,libcmTC_837e1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=F:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/lib -L/c/mingw810/prerequisites/i686-zlib-static/lib -L/c/mingw810/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.1.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_837e1.exe' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  ignore line: [ F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ATBir\AppData\Local\Temp\cc2DBEmq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_837e1.exe F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_837e1.dir/objects.a --no-whole-archive --out-implib libcmTC_837e1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_837e1.exe' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_d091c/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_d091c.dir\build.make CMakeFiles/cmTC_d091c.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d091c.dir/feature_tests.cxx.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"    -std=c++2a -o CMakeFiles\cmTC_d091c.dir\feature_tests.cxx.obj -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\feature_tests.cxx"
+Linking CXX executable cmTC_d091c.exe
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d091c.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d091c.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_d091c.dir/objects.a @CMakeFiles\cmTC_d091c.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"      -Wl,--whole-archive CMakeFiles\cmTC_d091c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d091c.exe -Wl,--out-implib,libcmTC_d091c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d091c.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_4b904/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_4b904.dir\build.make CMakeFiles/cmTC_4b904.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4b904.dir/feature_tests.cxx.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"    -std=c++17 -o CMakeFiles\cmTC_4b904.dir\feature_tests.cxx.obj -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\feature_tests.cxx"
+Linking CXX executable cmTC_4b904.exe
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4b904.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_4b904.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_4b904.dir/objects.a @CMakeFiles\cmTC_4b904.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"      -Wl,--whole-archive CMakeFiles\cmTC_4b904.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4b904.exe -Wl,--out-implib,libcmTC_4b904.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4b904.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_224a1/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_224a1.dir\build.make CMakeFiles/cmTC_224a1.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_224a1.dir/feature_tests.cxx.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"    -std=c++14 -o CMakeFiles\cmTC_224a1.dir\feature_tests.cxx.obj -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\feature_tests.cxx"
+Linking CXX executable cmTC_224a1.exe
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_224a1.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_224a1.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_224a1.dir/objects.a @CMakeFiles\cmTC_224a1.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"      -Wl,--whole-archive CMakeFiles\cmTC_224a1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_224a1.exe -Wl,--out-implib,libcmTC_224a1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_224a1.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_3c740/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_3c740.dir\build.make CMakeFiles/cmTC_3c740.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c740.dir/feature_tests.cxx.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"    -std=c++11 -o CMakeFiles\cmTC_3c740.dir\feature_tests.cxx.obj -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\feature_tests.cxx"
+Linking CXX executable cmTC_3c740.exe
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3c740.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_3c740.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_3c740.dir/objects.a @CMakeFiles\cmTC_3c740.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"      -Wl,--whole-archive CMakeFiles\cmTC_3c740.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3c740.exe -Wl,--out-implib,libcmTC_3c740.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3c740.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_96d8f/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_96d8f.dir\build.make CMakeFiles/cmTC_96d8f.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_96d8f.dir/feature_tests.cxx.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"    -std=c++98 -o CMakeFiles\cmTC_96d8f.dir\feature_tests.cxx.obj -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\feature_tests.cxx"
+Linking CXX executable cmTC_96d8f.exe
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_96d8f.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_96d8f.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_96d8f.dir/objects.a @CMakeFiles\cmTC_96d8f.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"      -Wl,--whole-archive CMakeFiles\cmTC_96d8f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_96d8f.exe -Wl,--out-implib,libcmTC_96d8f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_96d8f.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_6147b/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_6147b.dir\build.make CMakeFiles/cmTC_6147b.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6147b.dir/testCCompiler.c.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"    -o CMakeFiles\cmTC_6147b.dir\testCCompiler.c.obj   -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+Linking C executable cmTC_6147b.exe
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6147b.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_6147b.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_6147b.dir/objects.a @CMakeFiles\cmTC_6147b.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"      -Wl,--whole-archive CMakeFiles\cmTC_6147b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6147b.exe -Wl,--out-implib,libcmTC_6147b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6147b.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_699b0/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_699b0.dir\build.make CMakeFiles/cmTC_699b0.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_699b0.dir/CMakeCCompilerABI.c.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"    -o CMakeFiles\cmTC_699b0.dir\CMakeCCompilerABI.c.obj   -c "F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_699b0.exe
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_699b0.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_699b0.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_699b0.dir/objects.a @CMakeFiles\cmTC_699b0.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"     -v -Wl,--whole-archive CMakeFiles\cmTC_699b0.dir/objects.a -Wl,--no-whole-archive  -o cmTC_699b0.exe -Wl,--out-implib,libcmTC_699b0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe
+COLLECT_LTO_WRAPPER=F:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-8.1.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/lib -L/c/mingw810/prerequisites/i686-zlib-static/lib -L/c/mingw810/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 8.1.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+COMPILER_PATH=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_699b0.exe' '-mtune=generic' '-march=i686'
+ F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ATBir\AppData\Local\Temp\ccEToV65.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -o cmTC_699b0.exe F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_699b0.dir/objects.a --no-whole-archive --out-implib libcmTC_699b0.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_699b0.exe' '-mtune=generic' '-march=i686'
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_699b0/fast"]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_699b0.dir\build.make CMakeFiles/cmTC_699b0.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_699b0.dir/CMakeCCompilerABI.c.obj]
+  ignore line: ["F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"    -o CMakeFiles\cmTC_699b0.dir\CMakeCCompilerABI.c.obj   -c "F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_699b0.exe]
+  ignore line: ["F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_699b0.dir\link.txt --verbose=1]
+  ignore line: ["F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_699b0.dir/objects.a]
+  ignore line: ["F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_699b0.dir/objects.a @CMakeFiles\cmTC_699b0.dir\objects1.rsp]
+  ignore line: ["F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"     -v -Wl,--whole-archive CMakeFiles\cmTC_699b0.dir/objects.a -Wl,--no-whole-archive  -o cmTC_699b0.exe -Wl,--out-implib,libcmTC_699b0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=F:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/lib -L/c/mingw810/prerequisites/i686-zlib-static/lib -L/c/mingw810/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.1.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_699b0.exe' '-mtune=generic' '-march=i686']
+  ignore line: [ F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ATBir\AppData\Local\Temp\ccEToV65.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -o cmTC_699b0.exe F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_699b0.dir/objects.a --no-whole-archive --out-implib libcmTC_699b0.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_699b0.exe' '-mtune=generic' '-march=i686']
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_eba7e/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_eba7e.dir\build.make CMakeFiles/cmTC_eba7e.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eba7e.dir/feature_tests.c.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"   -std=c11 -o CMakeFiles\cmTC_eba7e.dir\feature_tests.c.obj   -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_eba7e.exe
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_eba7e.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_eba7e.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_eba7e.dir/objects.a @CMakeFiles\cmTC_eba7e.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"      -Wl,--whole-archive CMakeFiles\cmTC_eba7e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_eba7e.exe -Wl,--out-implib,libcmTC_eba7e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_eba7e.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_263ff/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_263ff.dir\build.make CMakeFiles/cmTC_263ff.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_263ff.dir/feature_tests.c.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"   -std=c99 -o CMakeFiles\cmTC_263ff.dir\feature_tests.c.obj   -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_263ff.exe
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_263ff.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_263ff.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_263ff.dir/objects.a @CMakeFiles\cmTC_263ff.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"      -Wl,--whole-archive CMakeFiles\cmTC_263ff.dir/objects.a -Wl,--no-whole-archive  -o cmTC_263ff.exe -Wl,--out-implib,libcmTC_263ff.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_263ff.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_a9d7e/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_a9d7e.dir\build.make CMakeFiles/cmTC_a9d7e.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9d7e.dir/feature_tests.c.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"   -std=c90 -o CMakeFiles\cmTC_a9d7e.dir\feature_tests.c.obj   -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_a9d7e.exe
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a9d7e.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_a9d7e.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_a9d7e.dir/objects.a @CMakeFiles\cmTC_a9d7e.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe"      -Wl,--whole-archive CMakeFiles\cmTC_a9d7e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a9d7e.exe -Wl,--out-implib,libcmTC_a9d7e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a9d7e.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_3d5c1/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_3d5c1.dir\build.make CMakeFiles/cmTC_3d5c1.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d5c1.dir/testCXXCompiler.cxx.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"     -o CMakeFiles\cmTC_3d5c1.dir\testCXXCompiler.cxx.obj -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_3d5c1.exe
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3d5c1.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_3d5c1.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_3d5c1.dir/objects.a @CMakeFiles\cmTC_3d5c1.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"      -Wl,--whole-archive CMakeFiles\cmTC_3d5c1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3d5c1.exe -Wl,--out-implib,libcmTC_3d5c1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3d5c1.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_35dc1/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_35dc1.dir\build.make CMakeFiles/cmTC_35dc1.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35dc1.dir/CMakeCXXCompilerABI.cpp.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"     -o CMakeFiles\cmTC_35dc1.dir\CMakeCXXCompilerABI.cpp.obj -c "F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_35dc1.exe
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_35dc1.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_35dc1.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_35dc1.dir/objects.a @CMakeFiles\cmTC_35dc1.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"     -v -Wl,--whole-archive CMakeFiles\cmTC_35dc1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_35dc1.exe -Wl,--out-implib,libcmTC_35dc1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe
+COLLECT_LTO_WRAPPER=F:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-8.1.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/lib -L/c/mingw810/prerequisites/i686-zlib-static/lib -L/c/mingw810/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 8.1.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+COMPILER_PATH=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/;F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_35dc1.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ATBir\AppData\Local\Temp\ccAtCk16.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_35dc1.exe F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_35dc1.dir/objects.a --no-whole-archive --out-implib libcmTC_35dc1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_35dc1.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_35dc1/fast"]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_35dc1.dir\build.make CMakeFiles/cmTC_35dc1.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_35dc1.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: ["F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"     -o CMakeFiles\cmTC_35dc1.dir\CMakeCXXCompilerABI.cpp.obj -c "F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_35dc1.exe]
+  ignore line: ["F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_35dc1.dir\link.txt --verbose=1]
+  ignore line: ["F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_35dc1.dir/objects.a]
+  ignore line: ["F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_35dc1.dir/objects.a @CMakeFiles\cmTC_35dc1.dir\objects1.rsp]
+  ignore line: ["F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"     -v -Wl,--whole-archive CMakeFiles\cmTC_35dc1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_35dc1.exe -Wl,--out-implib,libcmTC_35dc1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=F:/Program\ Files\ (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/lib -L/c/mingw810/prerequisites/i686-zlib-static/lib -L/c/mingw810/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.1.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/]
+  ignore line: [F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_35dc1.exe' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  ignore line: [ F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ATBir\AppData\Local\Temp\ccAtCk16.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_35dc1.exe F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LF:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_35dc1.dir/objects.a --no-whole-archive --out-implib libcmTC_35dc1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_35dc1.exe' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_e336a/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_e336a.dir\build.make CMakeFiles/cmTC_e336a.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e336a.dir/feature_tests.cxx.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"    -std=c++2a -o CMakeFiles\cmTC_e336a.dir\feature_tests.cxx.obj -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\feature_tests.cxx"
+Linking CXX executable cmTC_e336a.exe
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e336a.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_e336a.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_e336a.dir/objects.a @CMakeFiles\cmTC_e336a.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"      -Wl,--whole-archive CMakeFiles\cmTC_e336a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e336a.exe -Wl,--out-implib,libcmTC_e336a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e336a.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_ad798/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_ad798.dir\build.make CMakeFiles/cmTC_ad798.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ad798.dir/feature_tests.cxx.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"    -std=c++17 -o CMakeFiles\cmTC_ad798.dir\feature_tests.cxx.obj -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\feature_tests.cxx"
+Linking CXX executable cmTC_ad798.exe
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ad798.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ad798.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_ad798.dir/objects.a @CMakeFiles\cmTC_ad798.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"      -Wl,--whole-archive CMakeFiles\cmTC_ad798.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ad798.exe -Wl,--out-implib,libcmTC_ad798.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ad798.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_d67a1/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_d67a1.dir\build.make CMakeFiles/cmTC_d67a1.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d67a1.dir/feature_tests.cxx.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"    -std=c++14 -o CMakeFiles\cmTC_d67a1.dir\feature_tests.cxx.obj -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\feature_tests.cxx"
+Linking CXX executable cmTC_d67a1.exe
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d67a1.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d67a1.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_d67a1.dir/objects.a @CMakeFiles\cmTC_d67a1.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"      -Wl,--whole-archive CMakeFiles\cmTC_d67a1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d67a1.exe -Wl,--out-implib,libcmTC_d67a1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d67a1.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_07931/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_07931.dir\build.make CMakeFiles/cmTC_07931.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_07931.dir/feature_tests.cxx.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"    -std=c++11 -o CMakeFiles\cmTC_07931.dir\feature_tests.cxx.obj -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\feature_tests.cxx"
+Linking CXX executable cmTC_07931.exe
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_07931.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_07931.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_07931.dir/objects.a @CMakeFiles\cmTC_07931.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"      -Wl,--whole-archive CMakeFiles\cmTC_07931.dir/objects.a -Wl,--no-whole-archive  -o cmTC_07931.exe -Wl,--out-implib,libcmTC_07931.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_07931.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe" "cmTC_ba5fb/fast"
+F:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_ba5fb.dir\build.make CMakeFiles/cmTC_ba5fb.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ba5fb.dir/feature_tests.cxx.obj
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"    -std=c++98 -o CMakeFiles\cmTC_ba5fb.dir\feature_tests.cxx.obj -c "F:\University\Year 2\OOP\Week7\Task2\cmake-build-debug\CMakeFiles\feature_tests.cxx"
+Linking CXX executable cmTC_ba5fb.exe
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ba5fb.dir\link.txt --verbose=1
+"F:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ba5fb.dir/objects.a
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\cmTC_ba5fb.dir/objects.a @CMakeFiles\cmTC_ba5fb.dir\objects1.rsp
+"F:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"      -Wl,--whole-archive CMakeFiles\cmTC_ba5fb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ba5fb.exe -Wl,--out-implib,libcmTC_ba5fb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ba5fb.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/University/Year 2/OOP/Week7/Task2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

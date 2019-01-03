@@ -1,0 +1,10 @@
+﻿  Account.cpp
+  Controller.cpp
+  MyForm.cpp
+c:\users\scommv\downloads\accountinterface\accountinterface\crlform\BankInterface.h(50): warning C4677: 'cont': signature of non-private member contains assembly private type 'Controller'
+  c:\users\scommv\downloads\accountinterface\accountinterface\crlform\Controller.h(7): note: see declaration of 'Controller'
+  stdafx.cpp
+  Generating Code...
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  CRLForm.vcxproj -> C:\Users\scommv\Downloads\AccountInterface\AccountInterface\Debug\FormExample.exe
+  CRLForm.vcxproj -> C:\Users\scommv\Downloads\AccountInterface\AccountInterface\Debug\FormExample.pdb (Full PDB)
