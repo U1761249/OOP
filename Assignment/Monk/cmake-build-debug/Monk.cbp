@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Monk"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Monk">
+				<Option output="F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Monk.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 Monk"/>
+					<CompileFile command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Monk/fast">
+				<Option output="F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Monk.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 Monk/fast"/>
+					<CompileFile command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Program Files (x86)/mingw-w64/i686-7.3.0-win32-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;F:/University/Year 2/OOP/Assignment/Monk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Characters/BaseCharacter.h">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Characters/Monk.cpp">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Characters/Monk.h">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Characters/Monster.cpp">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Characters/Monster.h">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Dungeon/Dungeon.cpp">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Dungeon/Dungeon.h">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Dungeon/DungeonGenerator.cpp">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Dungeon/DungeonGenerator.h">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Dungeon/DungeonSuper.cpp">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Dungeon/DungeonSuper.h">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Dungeon/Room.cpp">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Dungeon/Room.h">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Play/Combat.cpp">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Play/Combat.h">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Play/Movement.cpp">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Play/Movement.h">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Play/Run.cpp">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/Play/Run.h">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/main.cpp">
+			<Option target="Monk"/>
+		</Unit>
+		<Unit filename="F:/University/Year 2/OOP/Assignment/Monk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
