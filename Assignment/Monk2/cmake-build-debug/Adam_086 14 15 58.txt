@@ -1,0 +1,23 @@
+Adam
+Birchg
+This game is best played with a NUM PAD 
+Options will appear as [key] function.
+What size dungeon do you want to tackle?
+[1] Small, [2] Medium, or [3] Large
+3
+6 X 6 Dungeon
+[Emp] [Emp] [Emp] [Emp] [Emp] [Emp]  
+                                     
+[ T ] [ S ] [Emp] [Emp] [Emp] [Emp]  
+  |     |                            
+[ E ] [ M ]-[ E ] [Emp] [Emp] [Emp]  
+  |     |     |                      
+[ E ] [ M ]-[ M ] [Emp] [Emp] [Emp]  
+  |     |     |                      
+[ E ]-[ M ]-[ E ] [ E ]-[ E ]-[ E ]  
+        |           |           |    
+[Emp] [ M ]-[ M ]-[ E ]-[ E ]-[ M ]  
+                                     
+You are able to move:
+[2] South  
+Or press [5] to see statistics [3] to pray or [1] for the map.

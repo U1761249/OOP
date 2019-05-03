@@ -1,0 +1,8 @@
+﻿F:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ServerOO.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  ClientExample.cpp
+f:\university\year 2\oop\week15\clientoo\serveroo\clientexample.cpp(55): warning C4018: '<': signed/unsigned mismatch
+  ClientNetwork.cpp
+f:\university\year 2\oop\week15\clientoo\serveroo\clientnetwork.cpp(20): warning C4101: 'address': unreferenced local variable
+  StartClient.cpp
+  Generating Code...
+  ServerOO.vcxproj -> F:\University\Year 2\OOP\Week15\ClientOO\Debug\ClientOO.exe

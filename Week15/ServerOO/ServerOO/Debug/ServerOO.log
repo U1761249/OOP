@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  NetworkServices.cpp
+  ServerExample.cpp
+f:\university\year 2\oop\week15\serveroo\serveroo\serverexample.cpp(52): warning C4018: '<': signed/unsigned mismatch
+  ServerNetwork.cpp
+  StartServer.cpp
+  Generating Code...
+  ServerOO.vcxproj -> F:\University\Year 2\OOP\Week15\ServerOO\Debug\ServerOO.exe

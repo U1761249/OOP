@@ -1,0 +1,164 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/University/Year 2/OOP/Assignment/Monk2/Characters/BaseCharacter.h
+string
+-
+iostream
+-
+
+F:/University/Year 2/OOP/Assignment/Monk2/Characters/Monk.cpp
+iostream
+-
+BaseCharacter.h
+F:/University/Year 2/OOP/Assignment/Monk2/Characters/BaseCharacter.h
+Monk.h
+F:/University/Year 2/OOP/Assignment/Monk2/Characters/Monk.h
+../Dungeon/Dungeon.h
+F:/University/Year 2/OOP/Assignment/Monk2/Dungeon/Dungeon.h
+../FileOut.h
+F:/University/Year 2/OOP/Assignment/Monk2/FileOut.h
+
+F:/University/Year 2/OOP/Assignment/Monk2/Characters/Monk.h
+string
+-
+BaseCharacter.h
+F:/University/Year 2/OOP/Assignment/Monk2/Characters/BaseCharacter.h
+../Dungeon/Room.h
+F:/University/Year 2/OOP/Assignment/Monk2/Dungeon/Room.h
+
+F:/University/Year 2/OOP/Assignment/Monk2/Characters/Monster.h
+BaseCharacter.h
+F:/University/Year 2/OOP/Assignment/Monk2/Characters/BaseCharacter.h
+
+F:/University/Year 2/OOP/Assignment/Monk2/Dungeon/Dungeon.h
+DungeonSuper.h
+F:/University/Year 2/OOP/Assignment/Monk2/Dungeon/DungeonSuper.h
+iostream
+-
+vector
+-
+
+F:/University/Year 2/OOP/Assignment/Monk2/Dungeon/DungeonGenerator.h
+Dungeon.h
+F:/University/Year 2/OOP/Assignment/Monk2/Dungeon/Dungeon.h
+Room.h
+F:/University/Year 2/OOP/Assignment/Monk2/Dungeon/Room.h
+
+F:/University/Year 2/OOP/Assignment/Monk2/Dungeon/DungeonSuper.cpp
+sstream
+-
+DungeonSuper.h
+F:/University/Year 2/OOP/Assignment/Monk2/Dungeon/DungeonSuper.h
+DungeonGenerator.h
+F:/University/Year 2/OOP/Assignment/Monk2/Dungeon/DungeonGenerator.h
+../Characters/Monk.h
+F:/University/Year 2/OOP/Assignment/Monk2/Characters/Monk.h
+../FileOut.h
+F:/University/Year 2/OOP/Assignment/Monk2/FileOut.h
+
+F:/University/Year 2/OOP/Assignment/Monk2/Dungeon/DungeonSuper.h
+Room.h
+F:/University/Year 2/OOP/Assignment/Monk2/Dungeon/Room.h
+iostream
+-
+vector
+-
+
+F:/University/Year 2/OOP/Assignment/Monk2/Dungeon/Room.h
+../Characters/Monster.h
+F:/University/Year 2/OOP/Assignment/Monk2/Characters/Monster.h
+
+F:/University/Year 2/OOP/Assignment/Monk2/FileOut.cpp
+FileOut.h
+F:/University/Year 2/OOP/Assignment/Monk2/FileOut.h
+Characters/Monk.h
+F:/University/Year 2/OOP/Assignment/Monk2/Characters/Monk.h
+
+F:/University/Year 2/OOP/Assignment/Monk2/FileOut.h
+iostream
+-
+time.h
+-
+fstream
+-
+
+F:/University/Year 2/OOP/Assignment/Monk2/Play/Combat.cpp
+time.h
+-
+Combat.h
+F:/University/Year 2/OOP/Assignment/Monk2/Play/Combat.h
+../Characters/Monk.h
+F:/University/Year 2/OOP/Assignment/Monk2/Characters/Monk.h
+../Dungeon/Dungeon.h
+F:/University/Year 2/OOP/Assignment/Monk2/Dungeon/Dungeon.h
+../FileOut.h
+F:/University/Year 2/OOP/Assignment/Monk2/FileOut.h
+unistd.h
+-
+
+F:/University/Year 2/OOP/Assignment/Monk2/Play/Combat.h
+../Characters/Monster.h
+F:/University/Year 2/OOP/Assignment/Monk2/Characters/Monster.h
+../Characters/Monk.h
+F:/University/Year 2/OOP/Assignment/Monk2/Characters/Monk.h
+../Dungeon/Dungeon.h
+F:/University/Year 2/OOP/Assignment/Monk2/Dungeon/Dungeon.h
+
+F:/University/Year 2/OOP/Assignment/Monk2/Play/Movement.cpp
+Movement.h
+F:/University/Year 2/OOP/Assignment/Monk2/Play/Movement.h
+../Characters/Monk.h
+F:/University/Year 2/OOP/Assignment/Monk2/Characters/Monk.h
+../Dungeon/Dungeon.h
+F:/University/Year 2/OOP/Assignment/Monk2/Dungeon/Dungeon.h
+../Dungeon/Room.h
+F:/University/Year 2/OOP/Assignment/Monk2/Dungeon/Room.h
+Combat.h
+F:/University/Year 2/OOP/Assignment/Monk2/Play/Combat.h
+../FileOut.h
+F:/University/Year 2/OOP/Assignment/Monk2/FileOut.h
+
+F:/University/Year 2/OOP/Assignment/Monk2/Play/Movement.h
+cstdio
+-
+string
+F:/University/Year 2/OOP/Assignment/Monk2/Play/string
+
+F:/University/Year 2/OOP/Assignment/Monk2/Play/Run.cpp
+Run.h
+F:/University/Year 2/OOP/Assignment/Monk2/Play/Run.h
+../Characters/Monk.h
+F:/University/Year 2/OOP/Assignment/Monk2/Characters/Monk.h
+../Dungeon/Dungeon.h
+F:/University/Year 2/OOP/Assignment/Monk2/Dungeon/Dungeon.h
+Movement.h
+F:/University/Year 2/OOP/Assignment/Monk2/Play/Movement.h
+../FileOut.h
+F:/University/Year 2/OOP/Assignment/Monk2/FileOut.h
+
+F:/University/Year 2/OOP/Assignment/Monk2/Play/Run.h
+string
+F:/University/Year 2/OOP/Assignment/Monk2/Play/string
+
+F:/University/Year 2/OOP/Assignment/Monk2/main.cpp
+iostream
+-
+fstream
+-
+time.h
+-
+conio.h
+-
+Play/Run.h
+F:/University/Year 2/OOP/Assignment/Monk2/Play/Run.h
+Characters/Monk.h
+F:/University/Year 2/OOP/Assignment/Monk2/Characters/Monk.h
+FileOut.h
+F:/University/Year 2/OOP/Assignment/Monk2/FileOut.h
+
